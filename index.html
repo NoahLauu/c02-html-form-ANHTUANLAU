@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>co02-html form</title>
+</head>
+
+<body>
+    <b>
+        <header style="font-size: xx-large;">Mẫu nhập thông tin sinh viên</header>
+    </b><br>
+    <fieldset>
+        <legend>Thông tin cơ bản</legend>
+        <form action="">
+            <span>Họ và tên</span>
+            <input type="text" id="Fullname"><br><br>
+            <span>Ngày sinh</span>
+            <input type="date" id="DateofBirth"><br><br>
+            <span>Giới tính</span>
+            <input type="radio" id="Male" name="gender" value="Nam">
+            <label for="Male">Nam</label>
+            <input type="radio" id="Female" name="gender" value="Nữ">
+            <label for="Female">Nữ</label>
+            <input type="radio" id="Another" name="gender" value="Khác">
+            <label for="Another">Khác</label><br><br>
+            <label for="">Tổ hợp xét tuyển</label><br>
+            <input type="checkbox" id="Math" name="Math" value="Toán">
+            <label for="Math">Toán</label><br>
+            <input type="checkbox" id="Physics" name="Physics" value="Lý">
+            <label for="Physics">Lý</label><br>
+            <input type="checkbox" id="Chemistry" name="Chemistry" value="Hóa">
+            <label for="Chemistry">Hóa</label><br>
+            <input type="checkbox" id="English" name="English" value="Anh">
+            <label for="English">Anh</label><br>
+        </form>
+    </fieldset><br>
+    <fieldset>
+        <legend>Thông tin liên lạc</legend>
+        <span>Email</span>
+        <input type="email" id="email"> <br><br>
+        <span>Số điện thoại</span>
+        <input type="number" id="mobilephone"> <br><br>
+    </fieldset>
+</body><br>
+<button type="button">Gửi</button>
+
+</html>
